@@ -46,6 +46,7 @@ header{
 
 aside{
 	width: 154px;
+	position: relative;
 	float: left;
 }
 

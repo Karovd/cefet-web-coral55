@@ -8,19 +8,19 @@
 <body>
   <!-- substitua os elementos não semânticos por elementos semânticos -->
   <div id="recipiente">
-    <header>
+    <div id="cabecalho">
       <h1 id="mainTitle">Lanchonete do Coral 55</h1>
       <h2 id="subTitle">O melhor <em id=acaiConfig>açaí</em> marítimo da região</h2>
-    </header>
-    <section id="conteudo">
-      <aside>
+    </div>
+    <div id="conteudo">
+      <div id="lateral">
         <img src="images/siri.png" alt="Um siri feliz após comer na lanchonete">
         <h2 id="cardapioConfig">Cardápio</h2>
         <img src="images/bolhas.png" alt="Bolhas de ar">
         <img src="images/peixe.png" alt="Peixe feliz após beber um delicioso
           coquetel de algas">
-      </aside>
-      <section id="cardapio">
+      </div>
+      <div id="cardapio">
         <h3>Salgados</h3>
         <!--
           encontre uma forma para dispor os itens do cardápio com seus
@@ -39,11 +39,11 @@
         <br>Água doce importada (copo) $ 29,49</br>
         <br>Coquetel de algas (alcoólico) $ 8,99</br>
         <br>Coquetel de algas (kids) $ 5,49</br>
-      </section>
-    </section>
-    <footer>
+      </div>
+    </div>
+    <div id="rodape">
       <img src="images/cartoes.png" alt="Formas de pagamento: Visa e Masterard">
-    </footer>
+    </div>
   </div>
   <div id="ticket">
     <img src="images/ticket.png" alt="Cupom de desconto">
